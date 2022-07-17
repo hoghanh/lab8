@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to bezkoder application." });
+  res.json({ message: "Welcome Exercise 2 - lab8 of Cao Hong Hanh " });
 });
 
 require("./app/routes/tutorial.routes")(app);
